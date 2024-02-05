@@ -11,12 +11,12 @@ const message=()=>{
             if(err){
                 throw err
             }
-             
+
             a=data.rows
             console.log(a);
-
-            return JSON.stringify(a)
         })
+        
+        return a
 }
 
 module.exports=message

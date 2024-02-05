@@ -4,7 +4,7 @@ module.exports={
     get:(req,res)=>{
         const a=message()
 
-        if(a==null){
+        if(a===null){
         res.send("Empty")
         }
 
